@@ -1,0 +1,36 @@
+body {
+  background: #381e10;
+  color: gold;
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+img {
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+p {
+  display: block;
+}
+
+/* Nuevas clases para los colores */
+.blue {
+  color: rgb(0, 204, 255);
+}
+
+.red {
+  color: red;
+}
+
+.yellow {
+  color: yellow;
+}
